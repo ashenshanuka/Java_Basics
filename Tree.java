@@ -1,7 +1,11 @@
+
+import java.awt.Color;
+
 public class Tree {
     double heightFt;
     double trunkDiameterInches;
     TreeType treeType;
+    static Color Trunk_color = new Color(102,51,20);
 
 
     Tree(double heightFt, double trunkDiameterInches, TreeType treeType){
